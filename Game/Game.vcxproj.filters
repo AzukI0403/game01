@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="system">
+      <UniqueIdentifier>{22dd8095-74f9-46df-81a1-36675a040b1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="system\system.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="BackGround.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="GameCamera.cpp" />
+    <ClCompile Include="Dangan.cpp" />
+    <ClCompile Include="Enemy01.cpp" />
+    <ClCompile Include="Walls.cpp" />
+    <ClCompile Include="Enemy02.cpp" />
+    <ClCompile Include="Tama.cpp" />
+    <ClCompile Include="Repair.cpp" />
+    <ClCompile Include="Gameover.cpp" />
+    <ClCompile Include="Gamestart.cpp" />
+    <ClCompile Include="GameUI.cpp" />
+    <ClCompile Include="Result.cpp" />
+    <ClCompile Include="Coin.cpp" />
+    <ClCompile Include="Kyuen.cpp" />
+    <ClCompile Include="Masingan.cpp" />
+    <ClCompile Include="Baria.cpp" />
+    <ClCompile Include="Tama_tuibi.cpp" />
+    <ClCompile Include="Boss01.cpp" />
+    <ClCompile Include="Explanation.cpp" />
+    <ClCompile Include="Stagecelect.cpp" />
+    <ClCompile Include="Box1_1.cpp" />
+    <ClCompile Include="Box1_2.cpp" />
+    <ClCompile Include="Box1_3.cpp" />
+    <ClCompile Include="Sc_bg.cpp" />
+    <ClCompile Include="Scoreboard.cpp" />
+    <ClCompile Include="Game2.cpp" />
+    <ClCompile Include="GameUI2.cpp" />
+    <ClCompile Include="Boss02.cpp" />
+    <ClCompile Include="Numberhouse.cpp" />
+    <ClCompile Include="Tama_big.cpp" />
+    <ClCompile Include="Game3.cpp" />
+    <ClCompile Include="GameUI3.cpp" />
+    <ClCompile Include="Game_final.cpp" />
+    <ClCompile Include="Boss03.cpp" />
+    <ClCompile Include="GameCamera_sc.cpp" />
+    <ClCompile Include="Enemy_bomb.cpp" />
+    <ClCompile Include="SceneChangeDoor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="system\system.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="BackGround.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="GameCamera.h" />
+    <ClInclude Include="Dangan.h" />
+    <ClInclude Include="Enemy01.h" />
+    <ClInclude Include="Walls.h" />
+    <ClInclude Include="Enemy02.h" />
+    <ClInclude Include="Tama.h" />
+    <ClInclude Include="Repair.h" />
+    <ClInclude Include="Gameover.h" />
+    <ClInclude Include="Gamestart.h" />
+    <ClInclude Include="GameUI.h" />
+    <ClInclude Include="Result.h" />
+    <ClInclude Include="Coin.h" />
+    <ClInclude Include="Kyuen.h" />
+    <ClInclude Include="Masingan.h" />
+    <ClInclude Include="Baria.h" />
+    <ClInclude Include="Tama_tuibi.h" />
+    <ClInclude Include="Boss01.h" />
+    <ClInclude Include="Explanation.h" />
+    <ClInclude Include="Stagecelect.h" />
+    <ClInclude Include="Box1_1.h" />
+    <ClInclude Include="Box1_2.h" />
+    <ClInclude Include="Box1_3.h" />
+    <ClInclude Include="Sc_bg.h" />
+    <ClInclude Include="Scoreboard.h" />
+    <ClInclude Include="Game2.h" />
+    <ClInclude Include="GameUI2.h" />
+    <ClInclude Include="Boss02.h" />
+    <ClInclude Include="Numberhouse.h" />
+    <ClInclude Include="Tama_big.h" />
+    <ClInclude Include="Game3.h" />
+    <ClInclude Include="GameUI3.h" />
+    <ClInclude Include="Game_final.h" />
+    <ClInclude Include="Boss03.h" />
+    <ClInclude Include="GameCamera_sc.h" />
+    <ClInclude Include="Enemy_bomb.h" />
+    <ClInclude Include="SceneChangeDoor.h" />
+  </ItemGroup>
+</Project>
