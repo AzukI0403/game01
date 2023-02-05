@@ -54,7 +54,7 @@ bool Boss03::Start()
 	//爆発するときの音を読み込む。
 	g_soundEngine->ResistWaveFileBank(18, "Assets/sound/boss_dead.wav");
 	//エフェクトを読み込む。
-	EffectEngine::GetInstance()->ResistEffect(1, u"Assets/effect/beam.efk");
+	EffectEngine::GetInstance()->ResistEffect(1, u"Assets/effect/effectsprite/beam_2.efk");
 	//エフェクトを読み込む。
 	EffectEngine::GetInstance()->ResistEffect(9, u"Assets/effect/effectsprite/boss_dead.efk");
 
@@ -548,7 +548,7 @@ void Boss03::Beam()
 					effectEmitter->Play();
 				}
 				//ビームを打っている間の処理。		
-				if (beambursttime <= 0&& beambursttime >= -280)
+				if (beambursttime <= 0&& beambursttime > -340)
 				{
 					if (colliState == false)
 					{
@@ -606,7 +606,7 @@ void Boss03::Beam()
 						colli_beam->SetRotation(rotation);
 					}
 				}
-				if (beambursttime <= -350)
+				if (beambursttime <= -345)
 				{
 					//ビームの当たり判定を消す。
 					DeleteGO(colli_beam);
