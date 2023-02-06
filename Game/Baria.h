@@ -31,5 +31,7 @@ public:
 
 	float SuparBariaState = false;
 	int SBOK = 0;
+	bool BariaState = false;
+	int BOK = 0;
 };
 

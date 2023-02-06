@@ -458,6 +458,7 @@ void Player::BariaG()
 				bariapoint--;
 				Baria* baria = NewGO<Baria>(0, "baria");
 				baria->position = position;
+				baria->BariaState = true;
 				BB++;
 		}
 	}

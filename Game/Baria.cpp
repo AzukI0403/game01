@@ -25,11 +25,11 @@ bool Baria::Start()
 	//ゲーム1_2のインスタンスを探す。
 	game2 = FindGO<Game2>("game2");
 	//生成するオブジェクトの処理を軽くする。
-	modelRender.SetRaytracingWorld(false);
-	modelRender.IniTranslucent("Assets/modelData/baria.tkm");
+	//modelRender.SetRaytracingWorld(false);
+	//modelRender.IniTranslucent("Assets/modelData/baria.tkm");
 
 	EffectEngine::GetInstance()->ResistEffect(10, u"Assets/effect/effectsprite/suparbaria.efk");
-
+	EffectEngine::GetInstance()->ResistEffect(13, u"Assets/effect/effectsprite/baria.efk");
 
 	//コリジョンの作成。
 	colli = NewGO<CollisionObject>(0);
@@ -53,6 +53,22 @@ void Baria::Update()
 	//コリジョンのポジション。
 	Cposition = player->position;
 	
+	//バリアが発動したら
+	if (BariaState == true)
+	{
+		effectEmitter = NewGO<EffectEmitter>(13);
+		effectEmitter->Init(13);
+		effectEmitter->SetScale({ 35.0f,35.0f,35.0f });
+		effectEmitter->SetPosition(position);
+		effectEmitter->Play();
+		BariaState = false;
+		SBOK = 1;
+	}
+	if (BOK == 1)
+	{
+		effectEmitter->SetPosition(position);
+	}
+	//スーパーバリアが発動したら
 	if (SuparBariaState == true)
 	{
 		effectEmitter = NewGO<EffectEmitter>(10);
@@ -81,12 +97,12 @@ void Baria::Update()
 	}
 
 	//絵描きさんに座標を教える。
-	modelRender.SetPosition(position);
+	//modelRender.SetPosition(position);
 	colli->SetPosition(Cposition);
-	modelRender.Update();
+	//modelRender.Update();
 }
 
 void Baria::Render(RenderContext& rc)
 {
-	modelRender.Draw(rc);
+	//modelRender.Draw(rc);
 }
