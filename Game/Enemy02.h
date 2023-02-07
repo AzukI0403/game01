@@ -10,6 +10,7 @@ class Tama_tuibi;
 class Game2;
 class Game3;
 class Numberhouse;
+class Baria;
 
 class Enemy02:public IGameObject
 {
@@ -37,6 +38,7 @@ public:
 	Game2* game2;
 	Game3* game3;
 	Numberhouse* numberhouse;
+	Baria* baria;
 
 	ModelRender modelRender;
 	ModelRender modelRender_eye;

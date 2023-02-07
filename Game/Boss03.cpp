@@ -610,6 +610,7 @@ void Boss03::Beam()
 				{
 					//ビームの当たり判定を消す。
 					DeleteGO(colli_beam);
+					effectEmitter->Stop();
 					//無敵時間リセット。
 					player->muteki = 0;
 					step = 2;

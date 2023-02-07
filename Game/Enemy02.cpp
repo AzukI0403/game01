@@ -8,6 +8,7 @@
 #include "Game2.h"
 #include "Game3.h"
 #include "Numberhouse.h"
+#include "Baria.h"
 #include "sound/SoundEngine.h"
 #include "sound/SoundSource.h"
 #include "graphics/effect/EffectEmitter.h"
@@ -43,6 +44,8 @@ bool Enemy02::Start()
 	player = FindGO<Player>("player");
 	//ゲーム1_3のインスタンスを探す。
 	game3 = FindGO<Game3>("game3");
+	//バリアのインスタンスを探す。
+	baria = FindGO<Baria>("baria");
 	//Numberhouseのインスタンスを探す。
 	numberhouse = FindGO<Numberhouse>("numberhouse");
 	stagenumber = numberhouse->stagenumber;
@@ -375,6 +378,37 @@ void Enemy02::Attack()
 				}
 				
 			}
+		}
+	}
+
+	//bariaのコリジョンを取得する。
+	const auto& collisions_b = g_collisionObjectManager->FindCollisionObjects("baria");
+	//collisionの配列をfor文で回す。
+	for (auto collision : collisions_b)
+	{
+		//設定したコリジョンと衝突したか判定する。
+		if (collision->IsHit(colli))
+		{
+			if (gardstate == 0)
+			{
+				//敵を倒した数を増やす。
+				//player->downcount += 1;
+				Dead();
+				//やられたときの音を再生する。
+				death = NewGO<SoundSource>(2);
+				death->Init(2);
+				death->SetVolume(1.2f);
+				death->Play(false);
+
+				EffectEmitter* effectEmitter = NewGO<EffectEmitter>(0);
+				effectEmitter->Init(0);
+				effectEmitter->SetScale({ 10.0f,10.0f,10.0f });
+				effectEmitter->SetPosition(position);
+				effectEmitter->Play();
+				//自身を破壊する。
+				DeleteGO(this);
+			}
+
 		}
 	}
 }
