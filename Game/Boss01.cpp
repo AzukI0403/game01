@@ -131,7 +131,7 @@ void Boss01::Update()
 		{
 			if (targetstate == 0)
 			{
-				Target();
+				//Target();
 				EffectEmitter*effectEmitter = NewGO<EffectEmitter>(8);
 				effectEmitter->Init(8);
 				effectEmitter->SetScale({ 60.0f,60.0f,0.0f });
@@ -141,6 +141,7 @@ void Boss01::Update()
 				effectEmitter->Play();
 				opentime = 50;
 				closetime = 0;
+				targetstate = 1;
 			}
 			Bite();
 			if (totugekicount == 2)count = 1;
@@ -354,6 +355,7 @@ void Boss01:: Bite()
 		totugekitime--;
 		//口を開く処理。
 		BiteRot();
+		if (targetstate == 1)Target();
 		//プレイヤーに突撃する。
 		if (gostate == 1)
 		{
@@ -419,7 +421,7 @@ void Boss01::Target()
 	moveSpeed = diff * 16.0f;
 	moveSpeed_b= diff * 16.0f;
 
-	targetstate = 1;
+	targetstate = 2;
 }
 
 //プレイヤーに与えるダメージの処理。
