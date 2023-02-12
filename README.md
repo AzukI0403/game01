@@ -7,7 +7,7 @@
 - 紹介動画
 - 作品概要  
 - 操作説明  
-- enemy紹介
+- ボス紹介
 - こだわったところ
 
 # 1.紹介動画
@@ -120,7 +120,7 @@ Audiostock
 # 4.操作説明　
 ![sousasetumei](UNIVESEPILOT/sousasetumei.png)
 
-# 5.enemy紹介
+# 5.ボス紹介
 ### 5.1　1-1のボス　　
 １－１のボスの行動は３つあります。１つ目は、拡散弾で複数の弾をランダムな場所に発射します。  
 ![1-1kakusan](UNIVESEPILOT/1-1boss_kakusann.png)
