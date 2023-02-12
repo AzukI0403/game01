@@ -140,9 +140,26 @@ void Boss03::Update()
 			if (setbomb == 1)
 			{
 				//パターンを変えるかランダムで決める。
-				int changepattern = rand() % 2;
+				int changepattern = rand() % 4;
+				switch (changepattern)
+				{
+				case 0:
+					pattern = 0;
+					break;
+				case 1:
+					pattern = 1;
+					break;
+				case 2:
+					pattern = 3;
+					break;
+				case 3:
+					pattern = 3;
+					break;
+				default:
+					break;
+				}
 				//changepattern=0なら。		
-				if (changepattern == 0)pattern = 3;
+				//if (changepattern == 0)pattern = 3;
 			}
 			tamacount = 0;
 			countdown = 10;
@@ -481,8 +498,8 @@ void Boss03::Bomb()
 			tamacount++;
 			countdown = 15;
 	}
-	//ボスのHPが50％以上なら。
-	if (bosshp > 50)
+	//ボスのHPが30％以上なら。
+	if (bosshp > 500)
 	{
 		//ボム7個配置。
 		if (tamacount >= 10)
@@ -495,7 +512,7 @@ void Boss03::Bomb()
 	else
 	{
 		//ボム10個配置。
-		if (tamacount >= 13)
+		if (tamacount >= 22)
 		{
 			countdown = 150;
 			setbomb = 1;
@@ -624,7 +641,7 @@ void Boss03::Beam()
 			//リングの目のコリジョンをリングに合わせる。
 			ringeyepos_x = 400;
 			ringeyepos_y = 400;
-			beambursttime = 0;
+			//beambursttime = 0;
 			beamstate = 0;
 			break;
 		case 10:

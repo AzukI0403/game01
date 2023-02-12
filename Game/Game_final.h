@@ -40,6 +40,7 @@ public:
 	Game3* game3;
 	Enemy_bomb* enemy_bomb;
 	Kyuen* kyuen;
+	Boss03* boss03;
 	SoundSource* BGM;//BGM‚Ì‰¹
 	Vector3 position;
 	ModelRender modelRender;
