@@ -133,7 +133,7 @@ Audiostock
 １－２のボスの行動は３つあります。１つ目は、ボス３体のランダムで１体が大きな弾を前方に打つのを何度か繰り返します。  
 ![1-2tama](UNIVESEPILOT/1-2boss_tama.png)
 ２つ目は、追尾弾です。上から順番に追尾弾を打ちますが、下の１体は生成されてから何度かボスからプレイヤーに向かうベクトルを計算させて、しばらくの間プレイヤーを追いかけます。  
-[1-2boss_tuibi](https://youtu.be/CMZXqRSW60U)  
+[![1-2boss_tuibi](https://img.youtube.com/vi/CMZXqRSW60U/0.jpg)](https://www.youtube.com/watch?v=CMZXqRSW60U)  
 ３つ目は突撃です。３体のボスが順番にプレイヤーに向かって突撃してきて、何度か繰り返します。  
 ![1-2totugeki](UNIVESEPILOT/1-2boss_totugeki.png)
 ***
