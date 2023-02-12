@@ -11,7 +11,7 @@
 - こだわったところ
 
 # 1.紹介動画
-[UNIVESEPILOT](https://youtu.be/5Qo3xKn76B4)  
+[![UNIVESE PILOT](https://img.youtube.com/vi/5Qo3xKn76B4/0.jpg)](https://www.youtube.com/watch?v=5Qo3xKn76B4)  
 
 # 2.作品概要
 - UNIVRSE PILOT
@@ -139,9 +139,9 @@ Audiostock
 ***
 ### 5.3　1-3のボス
 １－３のボスの行動は５つあります。１つ目は拡散弾です。　　
-![1-3boss_kakusann](UNIVESEPILOT/1-2boss_totugeki.png)  
-２つ目は追尾弾です。打ち出す全ての弾が生成されてからしばらくの間プレイヤーを追いかけます。  
-
+![1-3boss_kakusann](UNIVESEPILOT/1-3boss_kakusann.png)  
+２つ目は追尾弾です。打ち出す全ての弾が生成されてからしばらくの間プレイヤーを追いかけます(黒い線で囲んだものが追尾弾)。  
+![1-3boss_kakusann](UNIVESEPILOT/1-3boss_tuibi.png)  
 ３つ目はボム生成です。ボムのXY座標をランダムに決めて複数生成し、プレイヤーと同じZ軸に移動させます。ボスのHPによってボムの生成数が変わります。  
 ▼ボスのHPが31%以上のとき
 ![1-3boss_kakusann](UNIVESEPILOT/1-3boss_bomb1.png)  
@@ -150,7 +150,7 @@ Audiostock
 ４つ目は回転攻撃です。ボスのZ座標をプレイヤーのZ座標と同じにして、自身を回転させながら画面を横切って攻撃します。画面上側か下側かランダムに決めて２回行動します。この行動を行う前は必ずボムを生成します。  
 
 ５つ目はビーム攻撃です。ボスのHPが30%を切った時に強制的に行う行動です。ビームを打つ行動をしている間はダメージを受けません。  
-[beam](https://youtu.be/-vO1edqVciM)  
+[![1-3boss_beam](https://img.youtube.com/vi/-vO1edqVciM/0.jpg)](https://www.youtube.com/watch?v=-vO1edqVciM)  
 
 
 # 6.こだわったところ
@@ -167,11 +167,11 @@ Audiostock
 ### 6.3　1-3のボスステージ  
 ステージの１-３のボスは、視点を変えてエネミーが正面に見えるようにして迫力を出しクライマックス感を演出しました。ボスの見た目をコアのような見た目にして他のエネミー達を束ねるボスのようにしました。  
 ▼1-3のボスステージ以外のステージ  
-![1-1](UNIVESEPILOT/1-1.png)
-▼1-3のボスステージ 
- ![1-1](UNIVESEPILOT/1-3_final.png)
+![1-1](UNIVESEPILOT/1-1.png)  
+▼1-3のボスステージ  
+![1-1](UNIVESEPILOT/1-3_final.png)  
 
 ### 6.4　ステージ選択画面からステージ画面への移行  
 ステージを選択した後に画面上下の扉が閉まって、開いた時にステージの画面が出るようにして、出撃しているように感じるようにしました。  
 ▼ステージ選択画面からステージ画面に移った画面  
-[screen](https://youtu.be/rz5LT8hzspY)
+[![screen](https://img.youtube.com/vi/rz5LT8hzspY/0.jpg)](https://www.youtube.com/watch?v=rz5LT8hzspY)
