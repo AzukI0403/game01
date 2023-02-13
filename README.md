@@ -37,82 +37,82 @@ Effekseer
   + 音源  
 Audiostock
 
-# 2.担当ソースコード
-- BackGround.h、BackGround.cpp  
+- 担当ソースコード
+  - BackGround.h、BackGround.cpp  
 1-3のボスステージの背景の処理。  
-- Bariaｈ、Baria.cpp  
+  - Bariaｈ、Baria.cpp  
 バリア、スーパーバリアの処理。
-- Boss01.h、Boss01.cpp  
+  - Boss01.h、Boss01.cpp  
 1-1のボスの処理。  
-- Boss02.h、Boss02.cpp  
+  - Boss02.h、Boss02.cpp  
 1-2のボスの処理。  
-- Boss03.h、Boss03.cpp  
+  - Boss03.h、Boss03.cpp  
 1-3のボスの処理。  
-- Box1_1.h、Box1_1.cpp  
+  - Box1_1.h、Box1_1.cpp  
 ステージ選択画面の1-1のオブジェクトの処理。  
-- Box1_2.h、Box1_2.cpp  
+  - Box1_2.h、Box1_2.cpp  
 ステージ選択画面の1-2のオブジェクトの処理。  
-- Box1_3.h、Box1_3.cpp  
+  - Box1_3.h、Box1_3.cpp  
 ステージ選択画面の1-3のオブジェクトの処理。  
-- Coin.h、Coin.cpp  
+  - Coin.h、Coin.cpp  
 コインの処理。
-- Dangan.h、Dangan.cpp  
+  - Dangan.h、Dangan.cpp  
 プレイヤーの打つ弾の処理。  
-- Enemy_bomb.h、Enemy_bomb.cpp  
+  - Enemy_bomb.h、Enemy_bomb.cpp  
 1-3のボスが生成するボムの処理。  
-- Enemy01.h、Enemy01.cpp  
+  - Enemy01.h、Enemy01.cpp  
 一つ目のエネミーの処理。  
-- Enemy02.h、Enemy02.cpp  
+  - Enemy02.h、Enemy02.cpp  
 殻のついたエネミーの処理。  
-- Explanation.h、Explanation.cpp  
+  - Explanation.h、Explanation.cpp  
 操作説明画面、アイテム説明画面の処理。  
-- Game.h、Game.cpp  
+  - Game.h、Game.cpp  
 ステージ1-1の処理。
-- Game_final.h、Game_final.cpp  
+  - Game_final.h、Game_final.cpp  
 ステージ1-3のボスステージの処理。  
-- Game2.h、Game2.cpp  
+  - Game2.h、Game2.cpp  
 ステージ1-2の処理。  
-- Game3.h、Game3.cpp  
+  - Game3.h、Game3.cpp  
 ステージ1-3のボスステージ以外の処理。  
-- GameCamera.h、GameCamera.cpp  
+  - GameCamera.h、GameCamera.cpp  
 1-1、1-2、1-3のカメラの処理。  
-- GameCamera_sc.h、GameCamera_sc.cpp  
+  - GameCamera_sc.h、GameCamera_sc.cpp  
 ステージ選択画面のカメラの処理。  
-- Gameover.h、Gameover.cpp  
+  - Gameover.h、Gameover.cpp  
 ゲームオーバー画面の処理。  
-- Gamestart.h、Gamestart.cpp  
+  - Gamestart.h、Gamestart.cpp  
 タイトル画面の処理。  
-- GameUI.h、GameUI.cpp  
+  - GameUI.h、GameUI.cpp  
 1-1のUIの処理。  
-- GameUI2.h、GameUI2.cpp
+  - GameUI2.h、GameUI2.cpp
 1-2のUIの処理。  
-- GameUI3.h、GameUI3.cpp  
+  - GameUI3.h、GameUI3.cpp  
 1-3のUIの処理。  
-- Kyuen.h、Kyuen.cpp  
+  - Kyuen.h、Kyuen.cpp  
 アイテムカプセルの処理。  
-- Masingan.h、Masingan.cpp  
+  - Masingan.h、Masingan.cpp  
 マシンガンの処理。  
-- Numberhouse.h、Numberhouse.cpp  
+  - Numberhouse.h、Numberhouse.cpp  
 挑戦しているステージのナンバーを取得するクラス。  
-- Player.h、Player.cpp  
+  - Player.h、Player.cpp  
 プレイヤーの処理。  
-- Repair.h、Repair.cpp  
+  - Repair.h、Repair.cpp  
 リペアキットの処理。  
-- Result.h、Result.cpp  
+  - Result.h、Result.cpp  
 リザルト画面の処理。  
-- Sc_bg.h、Sc_bg.cpp  
+  - Sc_bg.h、Sc_bg.cpp  
 ステージ選択画面の背景の処理。  
-- SceneChangeDoor.h、SceneChangeDoor.cpp  
+  - SceneChangeDoor.h、SceneChangeDoor.cpp  
 ステージを選択したしたときや、ステージ1-3のボスステージへの切り替　　わりの際に画像を生成する処理。  
-- Scoreboard.h、Scoreboard.cpp  
+  - Scoreboard.h、Scoreboard.cpp  
 ステージ選択画面のステージのランクを示したオブジェクトの処理。  
-- Tama.h、Tama.cpp  
+  - Tama.h、Tama.cpp  
 エネミーが打つ弾の処理。  
-- Tama_big.h、Tama_big.cpp  
+  - Tama_big.h、Tama_big.cpp  
 ステージ1-2のボスの打つ大きな弾の処理。  
-- Tama_tuibi.h、Tama_tuibi.cpp
+  - Tama_tuibi.h、Tama_tuibi.cpp
 エネミーが打つプレイヤーを追尾する弾の処理。  
-- Walls.h、Walls.cpp  
+  - Walls.h、Walls.cpp  
 ボスステージ以外のステージの背景の処理。 
 
 # 3.操作説明　
