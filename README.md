@@ -4,7 +4,8 @@
 ゲームクリエイター科1年　国宇雄飛
 
 # 紹介動画
-[![UNIVESE PILOT](https://img.youtube.com/vi/5Qo3xKn76B4/0.jpg)](https://www.youtube.com/watch?v=5Qo3xKn76B4)  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5Qo3xKn76B4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+
 # 目次
 - 作品概要  
 - 操作説明  
